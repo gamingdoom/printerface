@@ -30,6 +30,10 @@ Next, move the config files to their locations. If you already have customized c
 # cp configs/print /etc/nginx/sites-available/
 # ln -s /etc/nginx/sites-available/print /etc/nginx/sites-enabled/print
 ```
+Finally, put the php, js and css files in the correct location
+```
+$ cp website/* /data/private/printer/
+```
 ## Enabling / Disabling services
 First, disable and stop apache2:
 ```
